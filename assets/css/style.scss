@@ -1,0 +1,53 @@
+img{
+	max-width: 100%;
+}
+
+h5, .h5 {
+	color: $theme-primary;
+}
+
+h2, .h2 {
+	color: $theme-primary;
+	font-weight: bold;
+}
+
+.btn {
+	box-shadow: 11px 21px 15px 6px rgba(0, 0, 0, 0.25);
+	padding: $spacer-12 $spacer-48;
+}
+
+.bg-img {
+	background-repeat: no-repeat;
+	background-position: 95% center;
+	background-size: contain;
+
+	&-1 {
+		background-image: url('../images/bg1.png');
+	}
+
+	&-2 {
+		background-image: url('../images/bg2.png');
+		background-size: 700px;
+	}
+
+	@media  (max-width: 762px){
+		background-image: none;
+	}
+}
+
+input {
+	background: #FFF;
+	box-shadow: 13px 21px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+
+.placeholder-white::placeholder{
+	color: #fff;
+}
+

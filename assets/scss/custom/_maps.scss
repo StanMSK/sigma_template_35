@@ -1,0 +1,14 @@
+// Create your own map
+$custom-colors: (
+        "theme-dark-primary": $theme-dark-primary,
+        "theme-primary": $theme-primary,
+        "theme-pink": $theme-pink,
+        "theme-violet": $theme-violet,
+        "theme-light-blue": $theme-light-blue,
+        "theme-light-yellow": $theme-light-yellow,
+        "theme-orange": $theme-orange,
+		"black": #000
+);
+
+// Merge the maps
+$theme-colors: map-merge($theme-colors, $custom-colors);
